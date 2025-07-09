@@ -197,6 +197,30 @@
   });
 
   /**
+   * Initiate experience gallery lightbox
+   */
+  const experienceGalleryLightbox = GLightbox({
+    selector: '[data-gallery="experienceGallery"]',
+    width: "90%",
+    height: "90vh",
+    closeButton: true,
+    touchNavigation: true,
+    keyboardNavigation: true,
+  });
+
+  /**
+   * Initiate certificate gallery lightbox
+   */
+  const certificateGalleryLightbox = GLightbox({
+    selector: '[data-gallery="certificateGallery"]',
+    width: "90%",
+    height: "90vh",
+    closeButton: true,
+    touchNavigation: true,
+    keyboardNavigation: true,
+  });
+
+  /**
    * Portfolio details slider
    */
   new Swiper(".portfolio-details-slider", {
